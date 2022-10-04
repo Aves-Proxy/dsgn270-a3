@@ -1,0 +1,55 @@
+/* BOX MODEL */
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.banner {
+  max-width: 100vw;
+  height: 45vh;
+  padding: 0.5rem;
+}
+
+/* svg containment */
+.container {
+  width: 90px;
+}
+
+/* FLEXBOX */
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* PRETTIFICATION */
+body {
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.banner {
+  color: rgb(255, 255, 255);
+  background-color: rgb(42, 42, 42);
+  background-image: url(../images/pexels-andrea-piacquadio-1050321.jpg);
+  background-position: 60% 40%;
+  background-blend-mode: multiply;
+}
+
+span {
+  font-size: 72px;
+}
+
+/* fiddling with the second svg */
+.path1 {
+  fill: rgb(0, 0, 0);
+}
+.path2 {
+  fill: rgb(255, 255, 255);
+}
+.path3 {
+  fill: rgba(100, 100, 100, 0.853);
+}
+.path4 {
+  fill: rgba(255, 24, 70, 0.488);
+}

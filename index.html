@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./assets/css/style.css" rel="stylesheet">
+  <title>SVG Logo Design</title>
+</head>
+<body>
+    <div class="banner">
+      <span>Magpie Jewellers</span>
+      <div class="container">
+        <!-- ORIGINAL SVG -->
+        <img src="./assets/images/logo.svg" alt="Magpie Jewellers Logo">
+      </div>
+      <p>Trusted since 1998</p>
+    </div>
+
+    <br>
+
+    <div class="banner">
+      <span>Magpie Jewellers</span>
+    <div class ="container">
+      <!-- ALTERED SVG -->
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 360 480">
+        <path class="path1" fill="#fff" d="m180 0 180 240-180 240L0 240 180 0Z"/>
+        <path class="path2" fill="#000" fill-rule="evenodd" d="M180 0 0 240l180 240v-80l180-160L180 80V0Zm0 320L0 240l180-80v160Zm0 0 180-80-180-80V80L0 240l180 160v-80Z" clip-rule="evenodd"/>
+        <path class="path3" fill="#000" fill-opacity=".65" d="m180 0 180 240-180 240L0 240 180 0Z"/>
+        <path class="path4" fill="url(#a)" d="m180 0 180 240-180 240L0 240 180 0Z" style="mix-blend-mode:screen"/>
+        <defs>
+          <linearGradient class="monochrome" id="a" x1="180" x2="180" y1="0" y2="480" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#000582"/>
+            <stop offset="1" stop-color="#CC003D"/>
+            <stop offset="1" stop-color="#FF004D"/>
+          </linearGradient>
+        </defs>
+      </svg>
+    </div>
+      <p>Trusted since 1998</p>
+    </div>
+</body>
+</html>
